@@ -1,2 +1,20 @@
-# F1_Race_Analysis
-MATLAB script for analyzing and visualizing Formula 1 lap time and pit stop data
+# Formula 1 Race Data Analysis (MATLAB)
+
+This project analyzes and visualizes Formula 1 lap times and pit stop strategies using historical CSV data.
+
+## Features
+- Automated data loading from multiple CSVs
+- Filter races by year and select specific races for analysis
+- Merges driver, constructor, lap time, and pit stop data
+- Visualizes lap time evolution for top finishers
+- Annotates pit stops with markers and labels
+
+## Tools
+- MATLAB
+- CSV data
+- Data visualization
+
+## How to Run
+1. Set `dataFolder` to your F1 data CSV path.
+2. Run the script in MATLAB.
+3. Choose a race ID from the list and watch the plot update.
