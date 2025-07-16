@@ -18,3 +18,8 @@ This project analyzes and visualizes Formula 1 lap times and pit stop strategies
 1. Set `dataFolder` to your F1 data CSV path.
 2. Run the script in MATLAB.
 3. Choose a race ID from the list and watch the plot update.
+
+
+## Data Source
+The Formula 1 datasets used in this project were obtained from [user: VOPANI] [(https://www.kaggle.com/)] ([https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data]).
+I do not own the data. All rights belong to the original data provider. The data is used here for educational and non-commercial purposes only.
