@@ -19,6 +19,11 @@ This project analyzes and visualizes Formula 1 lap times and pit stop strategies
 2. Run the script in MATLAB.
 3. Choose a race ID from the list and watch the plot update.
 
+## Results
+- Results are shown in the image: "Telemetry Canadian GP 2024 top3.png"
+Results:  - Lap Times vs Laps 
+          - Top 3 Finishers
+          - All Pit Stops of the Top 3 Finishers
 
 ## Data Source
 The Formula 1 datasets used in this project were obtained from [user: VOPANI] [(https://www.kaggle.com/)] ([https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/data]).
