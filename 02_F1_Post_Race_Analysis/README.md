@@ -50,10 +50,12 @@ The analysis generates six key figures to visualize different aspects of pace an
 
 | Figure | Description | Key Insight |
 | :---: | :--- | :--- |
-| **F1** | Race Pace by Stint and Compound | Raw lap time trends over the whole race. |
-| **F3** | Stint Pace Distribution | Shows lap time spread and mean/median for consistency. |
-| **F6** | **Normalized Pace vs. Tire Life** | **CRITICAL PLOT:** True degradation of each tire compound (fuel effect removed).  |
-
+| **F1** | **Race Pace by Stint and Compound** | Plots **ALL** lap times vs. Race Lap, segmented and colored by compound. Shows overall race flow, including slow and fast laps. |
+| **F2** | **Clear Laps per Stint (Regression)** | Plots **filtered, robust laps** vs. Race Lap, including a 4th-degree polynomial smoothing line to visualize general pace trend. |
+| **F3** | **Stint Pace Distribution** | A jittered scatter plot of **filtered lap times** for each stint, clearly showing the mean and median to assess lap time spread and **consistency**. |
+| **F4** | **Pace vs. Tire Life (Raw Lap Time)** | Plots **filtered, raw lap times** against the **Tire Life** (laps on that set), visualizing the degradation slope without fuel correction. |
+| **F5** | **Race Laps vs. Driver Position** | A simple line plot showing the driver's race position progression over all 71 laps. |
+| **F6** | **Normalized Pace vs. Tire Life** | **CRITICAL PLOT:** Plots **Fuel-Corrected Lap Times** against **Tire Life**. This figure shows the *true* performance degradation for each tire compound.  |
 ---
 
 ## 💻 Repository Structure
