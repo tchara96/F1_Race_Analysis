@@ -1,8 +1,10 @@
 ## 🏎️ F1 Race Pace Analysis: Lando Norris (NOR) - 2025 São Paulo Grand Prix
 
-This repository contains the MATLAB script and core statistical findings from a robust race pace analysis of Lando Norris's performance during the **2025 São Paulo Grand Prix**.
+## Project Overview
 
-The analysis applies **statistical filtering (2-sigma)** and **fuel normalization** to raw telemetry data to isolate 'true pace laps' and accurately determine tire degradation rates (ms/lap) for each stint.
+This repository documents the results of a comprehensive, large-scale **statistical analysis** of Lando Norris's performance during the **2025 São Paulo Grand Prix**.
+
+The project uses a **MATLAB script** to process raw telemetry data, applying stringent **statistical filtering (2-sigma)** and **fuel normalization** to accurately isolate true racing pace and determine **precise tire degradation rates (ms/lap)** for each stint.
 
 ---
 
@@ -15,6 +17,15 @@ The MATLAB script utilizes several key techniques for robust data analysis:
 3.  **Fuel Correction (Normalization):** Lap times are normalized to an empty-tank baseline using a pre-determined fuel correction factor ($0.041575$ seconds per lap). This eliminates the performance gain from fuel burn, allowing for a precise assessment of **tire and car performance independent of fuel load**.
     $$T_{\text{Corrected}} = T_{\text{Raw}} - (L_{\text{Remaining}} \times 0.041575)$$
 4.  **Degradation Calculation:** **Linear regression** is performed on the *Fuel-Corrected* lap times ($y$) versus the **Tire Life** ($x$) for each stint. The slope of the line gives the precise degradation rate in seconds per lap, which is then presented as **milliseconds per lap (ms/lap)**.
+
+### ⚙️ Core Mathematical Models
+
+| Model | Purpose | Formula / Function |
+| :--- | :--- | :--- |
+| **Fuel Normalization** | Isolates performance from fuel load. | $$T_{\text{Corrected}} = T_{\text{Raw}} - (L_{\text{Remaining}} \times 0.041575)$$ |
+| **Degradation Rate** | Calculates tire wear (ms/lap). | **Linear Regression** |
+| **Pace Smoothing (F2)** | Visualizes the pace trend over a stint. | **4th-Degree Polynomial Regression** |
+
 ---
 
 ## 📊 Results Summary
@@ -33,7 +44,7 @@ The MATLAB script utilizes several key techniques for robust data analysis:
 
 ### 🛞 Stint Pace and Degradation
 
-The final Medium stint exhibited **negative degradation**, meaning the pace improved as the tire life increased, successfully leveraging the reduced fuel load.
+The final Medium stint exhibited **negative degradation** ($-\mathbf{9.9}$ ms/lap), meaning the pace improved as the tire life increased, successfully leveraging the reduced fuel load.
 
 | Stint | Compound | Stint Laps | Best Lap | Avg Lap Time | **Degradation (ms/lap)** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -43,23 +54,33 @@ The final Medium stint exhibited **negative degradation**, meaning the pace impr
 
 ---
 
-## 🖼️ Visualizations
+## 🖼️ Visualizations & Deliverables
 
-The analysis generates six key figures to visualize different aspects of pace and consistency.
+The analysis generates six key figures and a complete text output report.
 
-| Figure | Description | Key Insight |
-| :---: | :--- | :--- |
-| **F1** | **Race Pace by Stint and Compound** | Plots **ALL** lap times vs. Race Lap, segmented and colored by compound. Shows overall race flow, including slow and fast laps. |
-| **F2** | **Clear Laps per Stint (Regression)** | Plots **filtered, robust laps** vs. Race Lap, including a 4th-degree polynomial smoothing line to visualize general pace trend. |
-| **F3** | **Stint Pace Distribution** | A jittered scatter plot of **filtered lap times** for each stint, clearly showing the mean and median to assess lap time spread and **consistency**. |
-| **F4** | **Pace vs. Tire Life (Raw Lap Time)** | Plots **filtered, raw lap times** against the **Tire Life** (laps on that set), visualizing the degradation slope without fuel correction. |
-| **F5** | **Race Laps vs. Driver Position** | A simple line plot showing the driver's race position progression over all 71 laps. |
-| **F6** | **Normalized Pace vs. Tire Life** | **CRITICAL PLOT:** Plots **Fuel-Corrected Lap Times** against **Tire Life**. This figure shows the *true* performance degradation for each tire compound.  |
+| File | Type | Description | Link |
+| :--- | :--- | :--- | :--- |
+| **F1\_Post\_Race\_Analysis.m** | MATLAB Script | The primary script containing all data processing, calculations, and plotting code. | [`F1_Post_Race_Analysis.m`](F1_Post_Race_Analysis.m) |
+| **Results from Race data Analysis.txt** | Text Report | Full statistical output, including detailed stint tables and coefficient calculations. | [`Results from Race data Analysis.txt`](Results%20from%20Race%20data%20Analysis.txt) |
+| **Raw Data (.csv)** | Data Source | The original telemetry data file used for the analysis. | [`são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv`](são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv) |
+| **F6: Normalized Pace** | **CRITICAL PLOT** | Plots **Fuel-Corrected Lap Times** against **Tire Life** to show *true* performance degradation. | **[Figure 6: Normalized Pace vs. Tire Life](Figure%206.png)** |
+| **F3: Stint Pace Distribution** | Consistency Check | Jittered scatter plot showing mean/median to assess lap time spread and **consistency**. | **[Figure 3: Pace Distribution](Figure%203.png)** |
+| **All Other Figures** | Support Plots | F1 (Raw Pace), F2 (Smoothed Pace), F4 (Raw Degradation), F5 (Position Progression). | **[View All Figures (1, 2, 4, 5)](Figure%201.png)** |
+
 ---
 
 ## 💻 Repository Structure
-**Data Source**: https://tracinginsights.com/
+
+* **Data Source:** [Tracing Insights](https://tracinginsights.com/)
+* `F1_Post_Race_Analysis.m`: The primary MATLAB script for processing, calculation, and visualization.
 * `são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv`: Raw data file.
-* `f1_pace_analysis_norris_2025.m`: The primary MATLAB script for processing, calculation, and visualization.
+* `Results from Race data Analysis.txt`: Full text output of the statistical calculations and summary tables.
 * `README.md`: This summary file.
-* `/figures`: Directory containing the six output plots (F1 - F6).
+* `Figure 1.png` - `Figure 6.png`: All generated visualization plots (linked above).
+
+## 🔬 Key Skills Demonstrated
+
+* **Advanced Data Processing (MATLAB):** Expertise in using MATLAB for robust cleaning, filtering, and large-scale data manipulation.
+* **Aerospace/Automotive Data Science:** Practical application of domain-specific techniques like **fuel normalization** and **tire degradation modeling**.
+* **Statistical Filtering:** Implementation of **2-Sigma control limits** ($\mu \pm 2\sigma$) for high-accuracy outlier rejection in noisy data sets.
+* **Predictive Modeling:** Utilization of linear and polynomial regression for determining degradation rates and pace trends.
