@@ -520,4 +520,5 @@ function plotStintDistribution(clearLapsDataset, Driver_Name, TireData)
     legend_names = {'Lap Times (Jittered)', 'Stint Mean', 'Stint Median'};
     legend(legend_elements, legend_names, 'Location', 'best', 'FontSize', 11);
     hold off
+
 end
