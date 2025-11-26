@@ -58,7 +58,7 @@ The analysis generates six key figures to visualize different aspects of pace an
 ---
 
 ## 💻 Repository Structure
-**Data Source: https://tracinginsights.com/
+**Data Source**: https://tracinginsights.com/
 * `são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv`: Raw data file.
 * `f1_pace_analysis_norris_2025.m`: The primary MATLAB script for processing, calculation, and visualization.
 * `README.md`: This summary file.
