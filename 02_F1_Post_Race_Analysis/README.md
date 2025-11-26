@@ -60,7 +60,7 @@ The analysis generates six key figures and a complete text output report.
 
 | File | Type | Description | Link |
 | :--- | :--- | :--- | :--- |
-| **F1\_Post\_Race\_Analysis.m** | MATLAB Script | The primary script containing all data processing, calculations, and plotting code. | [`F1_Post_Race_Analysis.m`](02_F1_Post_Race_Analysis/F1_Post_Race_Analysis.m) |
+| **F1\_Post\_Race\_Analysis.m** | MATLAB Script | The primary script containing all data processing, calculations, and plotting code. | [`F1_Post_Race_Analysis.m`][https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/F1_Post_Race_Analysis.m] |
 | **Results from Race data Analysis.txt** | Text Report | Full statistical output, including detailed stint tables and coefficient calculations. | [`Results from Race data Analysis.txt`](Results%20from%20Race%20data%20Analysis.txt) |
 | **Raw Data (.csv)** | Data Source | The original telemetry data file used for the analysis. | [`são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv`](são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv) |
 | **F6: Normalized Pace** | **CRITICAL PLOT** | Plots **Fuel-Corrected Lap Times** against **Tire Life** to show *true* performance degradation. | **[Figure 6: Normalized Pace vs. Tire Life](Figure%206.png)** |
