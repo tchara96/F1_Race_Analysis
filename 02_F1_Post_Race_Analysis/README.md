@@ -14,8 +14,7 @@ The MATLAB script utilizes several key techniques for robust data analysis:
 2.  **2-Sigma ($\sigma$) Filtering:** A second layer of statistical filtering is applied. Any remaining lap time exceeding the mean lap time plus two standard deviations ($\mu + 2\sigma$) for the 'clear laps' dataset is discarded. This removes minor traffic/driver errors unflagged by the official status column.
 3.  **Fuel Correction (Normalization):** Lap times are normalized to an empty-tank baseline using a pre-determined fuel correction factor ($0.041575$ seconds per lap). This eliminates the performance gain from fuel burn, allowing for a precise assessment of **tire and car performance independent of fuel load**.
     $$T_{\text{Corrected}} = T_{\text{Raw}} - (L_{\text{Remaining}} \times 0.041575)$$
-4.  **Degradation Calculation:** Linear regression ($\text{polyfit}(x, y, 1)$) is performed on the *Fuel-Corrected* lap times ($y$) versus the **Tire Life** ($x$) for each stint. The slope of the line gives the precise degradation rate in seconds per lap, which is then presented as **milliseconds per lap (ms/lap)**. 
-
+4.  **Degradation Calculation:** **Linear regression** is performed on the *Fuel-Corrected* lap times ($y$) versus the **Tire Life** ($x$) for each stint. The slope of the line gives the precise degradation rate in seconds per lap, which is then presented as **milliseconds per lap (ms/lap)**.
 ---
 
 ## 📊 Results Summary
