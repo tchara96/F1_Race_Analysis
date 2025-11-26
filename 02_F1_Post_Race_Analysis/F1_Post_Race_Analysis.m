@@ -338,7 +338,7 @@ hold off
 
 
 
-%% --- 7. HELPER FUNCTIONS ---
+%% 7. HELPER FUNCTIONS 
 % These functions have been cleaned up for better variable naming and robustness.
 
 function consistency_perc = calculate_consinsency_cv(lap_times)
@@ -522,3 +522,4 @@ function plotStintDistribution(clearLapsDataset, Driver_Name, TireData)
     hold off
 
 end
+
