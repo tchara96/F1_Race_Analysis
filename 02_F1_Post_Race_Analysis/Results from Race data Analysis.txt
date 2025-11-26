@@ -1,0 +1,57 @@
+Loading Data for Lando Norris (NOR) from são-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv...
+  Applied 2-σ Filter: Removed 2 laps (Slower than 1:16:205 ).
+Data processing complete. Total laps: 71. Robust pace laps remaining: 57.
+
+======================================================
+⚡ F1 RACE PACE ANALYSIS - Lando Norris (NOR)
+======================================================
+Race: 2025 São Paulo Grand Prix
+Strategy: MEDIUM → SOFT → MEDIUM
+Total Race Time: 92:01:596
+Position Change: 1 -> 1 (+0)
+--------------------------------------------
+Pace Laps (Clear Status "1"): 63
+Statistically Robust Laps (2-σ): 57
+Incident/Pit Laps: 8
+Safety Car Laps: 4
+--------------------------------------------
+🥇 Best Lap (Raw): 1:13:040 (L66)
+⛽ Best Lap (Fuel-Corrected): 1:10:870 (L9)
+Average Lap (Full Race): 1:17:769
+Median Lap (Full Race): 1:14:386
+Overall Consistency (Full Race): 86.74%
+============================================
+
+=== STINT-BY-STINT BREAKDOWN ===
+
+--- STINT 1 (MEDIUM) ---
+Stint Laps: 30
+Stint Duration: 40:51:572
+Best Lap: 1:13:489 (L9)
+Average Lap Time: 1:21:719
+Median Lap Time: 1:14:804
+St Dev: 0:14:317
+Consistency: 82.48%
+Degradation: 43.0 ms/lap (0.043 s/lap)
+
+--- STINT 2 (SOFT) ---
+Stint Laps: 20
+Stint Duration: 25:08:663
+Best Lap: 1:13:968 (L36)
+Average Lap Time: 1:15:433
+Median Lap Time: 1:14:375
+St Dev: 0:04:188
+Consistency: 94.45%
+Degradation: 22.0 ms/lap (0.022 s/lap)
+
+--- STINT 3 (MEDIUM) ---
+Stint Laps: 21
+Stint Duration: 26:01:361
+Best Lap: 1:13:040 (L66)
+Average Lap Time: 1:14:351
+Median Lap Time: 1:13:447
+St Dev: 0:04:135
+Consistency: 94.44%
+Degradation: -9.9 ms/lap (-0.010 s/lap)
+--------------------------------------
+>> 
