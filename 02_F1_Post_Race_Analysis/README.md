@@ -81,6 +81,6 @@ The analysis generates six key figures and a complete text output report.
 ## 🔬 Key Skills Demonstrated
 
 * **Advanced Data Processing (MATLAB):** Expertise in using MATLAB for robust cleaning, filtering, and large-scale data manipulation.
-* **Aerospace/Automotive Data Science:** Practical application of domain-specific techniques like **fuel normalization** and **tire degradation modeling**.
+* **Automotive Data Science:** Practical application of domain-specific techniques like **fuel normalization** and **tire degradation modeling**.
 * **Statistical Filtering:** Implementation of **2-Sigma control limits** ($\mu \pm 2\sigma$) for high-accuracy outlier rejection in noisy data sets.
 * **Predictive Modeling:** Utilization of linear and polynomial regression for determining degradation rates and pace trends.
