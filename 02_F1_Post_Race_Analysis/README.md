@@ -63,12 +63,9 @@ The analysis generates six key figures and a complete text output report.
 | **F1\_Post\_Race\_Analysis.m** | MATLAB Script | The primary script containing all data processing, calculations, and plotting code. | [https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/F1_Post_Race_Analysis.m] |
 | **Results from Race data Analysis.txt** | Text Report | Full statistical output, including detailed stint tables and coefficient calculations. | [https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Results%20from%20Race%20data%20Analysis.txt]|
 | **Raw Data (.csv)** | Data Source | The original telemetry data file used for the analysis. | [https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/s%C3%A3o-paulo-grand-prix-race-NOR-TracingInsights.com-datatable-2025-11-19.csv] |
-| **F6: Normalized Pace** | **CRITICAL PLOT** | Plots **Fuel-Corrected Lap Times** against **Tire Life** to show *true* performance degradation. | **[(https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%206.png)]** |
+| **F6: Normalized Pace** | **CRITICAL PLOT** | Plots **Fuel-Corrected Lap Times** against **Tire Life** to show *true* performance degradation. | **[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%206.png]** |
 | **F3: Stint Pace Distribution** | Consistency Check | Jittered scatter plot showing mean/median to assess lap time spread and **consistency**. | **[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%203.png]** |
-| **All Other Figures** | Support Plots | F1 (Raw Pace), F2 (Smoothed Pace), F4 (Raw Degradation), F5 (Position Progression). | **[(https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%201.png)]**
-**[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%202.png]**
-**[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%204.png]**
-**[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%205.png]**|
+| **All Other Figures** | Support Plots | F1 (Raw Pace), F2 (Smoothed Pace), F4 (Raw Degradation), F5 (Position Progression). | **[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%201.png]** **[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%202.png]** **[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%204.png]** **[https://github.com/tchara96/F1_Race_Analysis/blob/main/02_F1_Post_Race_Analysis/Figure%205.png]**|
 
 ---
 
