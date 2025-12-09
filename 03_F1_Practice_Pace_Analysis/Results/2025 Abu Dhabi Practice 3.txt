@@ -1,0 +1,144 @@
+ 2025 Abu Dhabi Practice 3
+====================================
+STINTS ANALYSIS
+====================================
+------------------------------------
+Driver: PIA 
+ Stint no 1 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 1-3 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: 1:25:128 
+ Fastest Lap: 1:25:128 
+ Fastest S1: 0:17:421 
+ Fastest S2: 0:36:725 
+ Fastest S3: 0:30:982 
+ Optimal Lap Time: 1:25:128 
+------------------------------------
+Driver: PIA 
+ Stint no 2 - Compound: SOFT 
+ Total Stint Laps: 6 Laps 
+ Tyre age: 4-9 Laps  
+ Clean Laps: 4 
+ Stint- Start Tyre Life (Clean Laps): 5 Laps 
+ Tyre Life up to competitive laps: 8 Laps 
+ Average Lap Time: 1:26:492 
+ Fastest Lap: 1:25:270 
+ Fastest S1: 0:17:424 
+ Fastest S2: 0:36:893 
+ Fastest S3: 0:30:663 
+ Optimal Lap Time: 1:24:980 
+------------------------------------
+Driver: PIA 
+ Stint no 3 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 1-3 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: 1:23:593 
+ Fastest Lap: 1:23:593 
+ Fastest S1: 0:17:040 
+ Fastest S2: 0:36:328 
+ Fastest S3: 0:30:225 
+ Optimal Lap Time: 1:23:593 
+------------------------------------
+Driver: PIA 
+ Stint no 4 - Compound: SOFT 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 4-8 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 5 Laps 
+ Tyre Life up to competitive laps: 5 Laps 
+ Average Lap Time: 1:23:624 
+ Fastest Lap: 1:23:624 
+ Fastest S1: 0:17:065 
+ Fastest S2: 0:36:323 
+ Fastest S3: 0:30:236 
+ Optimal Lap Time: 1:23:624 
+------------------------------------
+Driver: VER 
+ Stint no 1 - Compound: SOFT 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 1-5 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: 1:24:245 
+ Fastest Lap: 1:24:245 
+ Fastest S1: 0:17:139 
+ Fastest S2: 0:36:416 
+ Fastest S3: 0:30:690 
+ Optimal Lap Time: 1:24:245 
+------------------------------------
+Driver: VER 
+ Stint no 2 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 6-8 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 7 Laps 
+ Tyre Life up to competitive laps: 7 Laps 
+ Average Lap Time: 1:24:116 
+ Fastest Lap: 1:24:116 
+ Fastest S1: 0:17:090 
+ Fastest S2: 0:36:375 
+ Fastest S3: 0:30:651 
+ Optimal Lap Time: 1:24:116 
+------------------------------------
+Driver: VER 
+ Stint no 3 - Compound: SOFT 
+ Total Stint Laps: 7 Laps 
+ Tyre age: 1-7 Laps  
+ Clean Laps: 2 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 5 Laps 
+ Average Lap Time: 1:23:486 
+ Fastest Lap: 1:23:458 
+ Fastest S1: 0:17:027 
+ Fastest S2: 0:36:122 
+ Fastest S3: 0:30:246 
+ Optimal Lap Time: 1:23:395 
+------------------------------------
+Driver: NOR 
+ Stint no 1 - Compound: SOFT 
+ Total Stint Laps: 11 Laps 
+ Tyre age: 1-11 Laps  
+ Clean Laps: 6 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 10 Laps 
+ Average Lap Time: 1:26:299 
+ Fastest Lap: 1:24:533 
+ Fastest S1: 0:17:280 
+ Fastest S2: 0:36:681 
+ Fastest S3: 0:30:462 
+ Optimal Lap Time: 1:24:423 
+------------------------------------
+Driver: NOR 
+ Stint no 2 - Compound: SOFT 
+ Total Stint Laps: 4 Laps 
+ Tyre age: 1-4 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 3 Laps 
+ Tyre Life up to competitive laps: 3 Laps 
+ Average Lap Time: 1:23:338 
+ Fastest Lap: 1:23:338 
+ Fastest S1: 0:17:096 
+ Fastest S2: 0:36:336 
+ Fastest S3: 0:29:906 
+ Optimal Lap Time: 1:23:338 
+------------------------------------
+Driver: NOR 
+ Stint no 3 - Compound: SOFT 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 5-9 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 6 Laps 
+ Tyre Life up to competitive laps: 6 Laps 
+ Average Lap Time: 1:23:406 
+ Fastest Lap: 1:23:406 
+ Fastest S1: 0:17:030 
+ Fastest S2: 0:36:254 
+ Fastest S3: 0:30:122 
+ Optimal Lap Time: 1:23:406 
