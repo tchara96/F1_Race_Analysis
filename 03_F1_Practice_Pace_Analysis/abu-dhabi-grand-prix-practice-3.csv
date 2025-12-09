@@ -1,0 +1,37 @@
+﻿# Generated: 2025-12-06T17:29:20.301Z
+# Source page: https://tracinginsights.com/
+# Event: Abu Dhabi Grand Prix
+# Session: Practice 3
+# Year: 2025
+# Notes: Values are in SI units unless specified. Missing fields are empty.
+# Status legend:
+#   1 = Track Clear - Normal racing conditions
+#   2 = Yellow Flag - Caution period, no overtaking in affected sector
+#   4 = Safety Car - All cars follow safety car
+#   5 = Red Flag - Session stopped, return to pits
+#   6 = Virtual Safety Car - Maintain minimum lap time
+#   7 = VSC Ending - Normal racing about to resume
+# Options: fuelCorrection=off, includeAllColumns=on
+# Drivers: PIA, VER, NOR
+LAP,PIA_TIME,PIA_POSITION,PIA_POSITION_CHANGE,PIA_COMPOUND,PIA_STINT,PIA_PITSTOP,PIA_TIRE_LIFE,PIA_S1,PIA_S2,PIA_S3,PIA_SECTOR_SUM,PIA_STATUS,PIA_PERSONAL_BEST,VER_TIME,VER_POSITION,VER_POSITION_CHANGE,VER_COMPOUND,VER_STINT,VER_PITSTOP,VER_TIRE_LIFE,VER_S1,VER_S2,VER_S3,VER_SECTOR_SUM,VER_STATUS,VER_PERSONAL_BEST,NOR_TIME,NOR_POSITION,NOR_POSITION_CHANGE,NOR_COMPOUND,NOR_STINT,NOR_PITSTOP,NOR_TIRE_LIFE,NOR_S1,NOR_S2,NOR_S3,NOR_SECTOR_SUM,NOR_STATUS,NOR_PERSONAL_BEST
+Lap number in the session,Lap time in seconds,Race position,Position change from previous lap (positive = gained positions),Tire compound used (SOFT/MEDIUM/HARD/INTERMEDIATE/WET),Stint number (continuous running on same tire set),Pitstop indicator (TRUE if driver pitted at start of this lap),Tire age in laps,Sector 1 time in seconds,Sector 2 time in seconds,Sector 3 time in seconds,Sum of sector times (S1+S2+S3) in seconds,"Track status code (1=Clear, 2=Yellow, 4=Safety Car, 5=Red Flag, 6=VSC, 7=VSC Ending)",Personal best lap indicator (TRUE if this is driver's fastest lap),Lap time in seconds,Race position,Position change from previous lap (positive = gained positions),Tire compound used (SOFT/MEDIUM/HARD/INTERMEDIATE/WET),Stint number (continuous running on same tire set),Pitstop indicator (TRUE if driver pitted at start of this lap),Tire age in laps,Sector 1 time in seconds,Sector 2 time in seconds,Sector 3 time in seconds,Sum of sector times (S1+S2+S3) in seconds,"Track status code (1=Clear, 2=Yellow, 4=Safety Car, 5=Red Flag, 6=VSC, 7=VSC Ending)",Personal best lap indicator (TRUE if this is driver's fastest lap),Lap time in seconds,Race position,Position change from previous lap (positive = gained positions),Tire compound used (SOFT/MEDIUM/HARD/INTERMEDIATE/WET),Stint number (continuous running on same tire set),Pitstop indicator (TRUE if driver pitted at start of this lap),Tire age in laps,Sector 1 time in seconds,Sector 2 time in seconds,Sector 3 time in seconds,Sum of sector times (S1+S2+S3) in seconds,"Track status code (1=Clear, 2=Yellow, 4=Safety Car, 5=Red Flag, 6=VSC, 7=VSC Ending)",Personal best lap indicator (TRUE if this is driver's fastest lap)
+1,,,,SOFT,1,FALSE,1,,44.367,39.734,,1,FALSE,,,,SOFT,1,FALSE,1,,50.034,45.163,,1,FALSE,,,,SOFT,1,FALSE,1,,48.862,38.658,,1,FALSE
+2,85.128,,,SOFT,1,FALSE,2,17.421,36.725,30.982,85.128,1,FALSE,84.245,,,SOFT,1,FALSE,2,17.139,36.416,30.69,84.24499999999999,1,FALSE,84.728,,,SOFT,1,FALSE,2,17.464,36.802,30.462,84.728,1,FALSE
+3,141.464,,,SOFT,1,FALSE,3,29.071,64.207,48.186,141.464,1,FALSE,,,,SOFT,1,FALSE,3,36.832,71.582,64.708,173.12199999999999,1,FALSE,148.346,,,SOFT,1,FALSE,3,25.404,69.493,53.449,148.346,1,FALSE
+4,135.041,,,SOFT,2,TRUE,4,43.951,52.987,38.103,135.041,1,FALSE,114.083,,,SOFT,1,FALSE,4,26.459,49.299,38.325,114.083,1,FALSE,131.017,,,SOFT,1,FALSE,4,31.33,57.993,41.694,131.017,1,FALSE
+5,85.27,,,SOFT,2,FALSE,5,17.714,36.893,30.663,85.27,1,FALSE,,,,SOFT,1,FALSE,5,17.25,,,,125,FALSE,84.533,,,SOFT,1,FALSE,5,17.28,36.681,30.572,84.533,1,FALSE
+6,87.142,,,SOFT,2,FALSE,6,17.737,37.98,31.425,87.142,1,FALSE,,,,SOFT,2,TRUE,6,,41.525,36.523,,1,FALSE,100.631,,,SOFT,1,FALSE,6,24.238,38.435,37.958,100.631,1,FALSE
+7,86.976,,,SOFT,2,FALSE,7,17.666,37.836,31.474,86.976,1,FALSE,84.116,,,SOFT,2,FALSE,7,17.09,36.375,30.651,84.116,12,FALSE,87.675,,,SOFT,1,FALSE,7,17.833,38.104,31.738,87.675,1,FALSE
+8,86.58,,,SOFT,2,FALSE,8,17.424,37.528,31.628,86.58,1,FALSE,95.409,,,SOFT,2,FALSE,8,18.843,40.625,35.941,95.409,1,FALSE,87.188,,,SOFT,1,FALSE,8,17.592,37.961,31.635,87.188,1,FALSE
+9,,,,SOFT,2,FALSE,9,,,,,125,FALSE,,,,SOFT,3,TRUE,1,,45.499,37.148,,1,FALSE,87.343,,,SOFT,1,FALSE,9,17.607,37.974,31.762,87.34299999999999,1,FALSE
+10,,,,SOFT,3,TRUE,1,,46.29,49.044,,12,FALSE,83.514,,,SOFT,3,FALSE,2,17.027,36.162,30.325,83.514,1,FALSE,86.326,,,SOFT,1,FALSE,10,17.316,37.652,31.358,86.32600000000001,1,FALSE
+11,83.593,,,SOFT,3,FALSE,2,17.04,36.328,30.225,83.593,1,TRUE,133.684,,,SOFT,3,FALSE,3,27.047,59.038,47.599,133.684,1,FALSE,91.009,,,SOFT,1,FALSE,11,17.372,38.146,35.491,91.009,1,FALSE
+12,120.399,,,SOFT,3,FALSE,3,26.307,54.471,39.621,120.399,1,FALSE,137.672,,,SOFT,3,FALSE,4,29.979,50.089,57.604,137.672,12,FALSE,,,,SOFT,2,TRUE,1,,48.146,42.978,,12,FALSE
+13,,,,SOFT,4,TRUE,4,,54.703,40.23,,1,FALSE,83.458,,,SOFT,3,FALSE,5,17.09,36.122,30.246,83.458,1,TRUE,117.06,,,SOFT,2,FALSE,2,23.84,51.451,41.769,117.06,21,FALSE
+14,83.624,,,SOFT,4,FALSE,5,17.065,36.323,30.236,83.62400000000001,1,FALSE,126.855,,,SOFT,3,FALSE,6,25.823,46.863,54.169,126.855,1,FALSE,83.338,,,SOFT,2,FALSE,3,17.096,36.336,29.906,83.338,1,TRUE
+15,140.503,,,SOFT,4,FALSE,6,23.425,56.839,60.239,140.503,12,FALSE,117.754,,,SOFT,3,FALSE,7,40.116,40.649,36.989,117.75399999999999,1,FALSE,111.709,,,SOFT,2,FALSE,4,23.785,46.517,41.407,111.709,1,FALSE
+16,137.741,,,SOFT,4,FALSE,7,25.476,52.038,60.227,137.74099999999999,1,FALSE,,,,,,,,,,,,,,,,,SOFT,3,TRUE,5,,45.88,44.862,,1,FALSE
+17,121.12,,,SOFT,4,FALSE,8,45.999,39.006,36.115,121.12,1,FALSE,,,,,,,,,,,,,,83.406,,,SOFT,3,FALSE,6,17.03,36.254,30.122,83.406,1,FALSE
+18,,,,,,,,,,,,,,,,,,,,,,,,,,,119.793,,,SOFT,3,FALSE,7,24.182,51.97,43.641,119.793,12,FALSE
+19,,,,,,,,,,,,,,,,,,,,,,,,,,,113.408,,,SOFT,3,FALSE,8,21.129,38.326,53.953,113.408,1,FALSE
+20,,,,,,,,,,,,,,,,,,,,,,,,,,,134.955,,,SOFT,3,FALSE,9,45.022,47.856,42.077,134.95499999999998,1,FALSE
