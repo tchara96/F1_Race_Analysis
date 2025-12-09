@@ -1,0 +1,242 @@
+ 2025 Abu Dhabi Practice 2
+====================================
+STINTS ANALYSIS
+====================================
+------------------------------------
+
+NORRIS: 
+
+PER TYRE:
+MEDIUM B (STINT 1 & 4)
+TOTAL LAPS: 19
+
+SOFT B (STINT 2 & 3 & 5)
+TOTAL LAPS: 9
+
+Comments: Norris used 2 compounds during P2, in 5 stints.
+
+PER STINT:
+------------------------------------
+Driver: NOR 
+ Stint no 1 - Compound: MEDIUM 
+ Total Stint Laps: 9 Laps 
+ Tyre age: 1-9 Laps  
+ Clean Laps: 2 
+ Stint- Start Tyre Life (Clean Laps): 3 Laps 
+ Tyre Life up to competitive laps: 8 Laps 
+ Average Lap Time: 1:24:749 
+ Fastest Lap: 1:24:292 
+ Fastest S1: 0:17:323 
+ Fastest S2: 0:36:543 
+ Fastest S3: 0:30:426 
+ Optimal Lap Time: 1:24:292 
+------------------------------------
+Driver: NOR 
+ Stint no 2 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 1-3 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: 1:23:083 
+ Fastest Lap: 1:23:083 
+ Fastest S1: 0:16:998 
+ Fastest S2: 0:36:181 
+ Fastest S3: 0:29:904 
+ Optimal Lap Time: 1:23:083 
+------------------------------------
+Driver: NOR 
+ Stint no 3 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 4-6 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 5 Laps 
+ Tyre Life up to competitive laps: 5 Laps 
+ Average Lap Time: 1:23:411 
+ Fastest Lap: 1:23:411 
+ Fastest S1: 0:17:065 
+ Fastest S2: 0:36:192 
+ Fastest S3: 0:30:154 
+ Optimal Lap Time: 1:23:411 
+------------------------------------
+Driver: NOR 
+ Stint no 4 - Compound: MEDIUM 
+ Total Stint Laps: 10 Laps 
+ Tyre age: 10-19 Laps  
+ Clean Laps: 8 
+ Stint- Start Tyre Life (Clean Laps): 11 Laps 
+ Tyre Life up to competitive laps: 18 Laps 
+ Average Lap Time: 1:29:270 
+ Fastest Lap: 1:29:093 
+ Fastest S1: 0:17:954 
+ Fastest S2: 0:38:419 
+ Fastest S3: 0:32:530 
+ Optimal Lap Time: 1:28:903 
+------------------------------------
+Driver: NOR 
+ Stint no 5 - Compound: SOFT 
+ Total Stint Laps: 4 Laps
+ Clean Laps: 0 
+ Stint- Start Tyre Life: 7 Laps 
+ Tyre Life up to competitive laps: - Laps 
+ Tyre age: 7-9 Laps
+ Average Lap Time: 1:29:270 
+ Fastest Lap: - 
+ Fastest S1: - 
+ Fastest S2: - 
+ Fastest S3: -
+ Optimal Lap Time: - 
+------------------------------------
+=======================================================
+------------------------------------
+PIASTRI:
+
+PER TYRE:
+MEDIUM A (STINT 1 & 4)
+
+SOFT A (STINT 2 & 3 & 5)
+
+Comments: Piastri used 2 compounds during P2, in 5 stints.
+
+
+PER STINT:
+------------------------------------
+Driver: PIA 
+ Stint no 1 - Compound: MEDIUM 
+ Total Stint Laps: 10 Laps 
+ Tyre age: 1-10 Laps  
+ Clean Laps: 3 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 7 Laps 
+ Average Lap Time: 1:25:008 
+ Fastest Lap: 1:24:434 
+ Fastest S1: 0:17:330 
+ Fastest S2: 0:36:563 
+ Fastest S3: 0:30:541 
+ Optimal Lap Time: 1:24:434 
+------------------------------------
+Driver: PIA 
+ Stint no 2 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 1-3 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: 1:23:763 
+ Fastest Lap: 1:23:763 
+ Fastest S1: 0:17:150 
+ Fastest S2: 0:36:377 
+ Fastest S3: 0:30:236 
+ Optimal Lap Time: 1:23:763 
+------------------------------------
+Driver: PIA 
+ Stint no 3 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 4-6 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 5 Laps 
+ Tyre Life up to competitive laps: 5 Laps 
+ Average Lap Time: 1:23:842 
+ Fastest Lap: 1:23:842 
+ Fastest S1: 0:17:120 
+ Fastest S2: 0:36:585 
+ Fastest S3: 0:30:137 
+ Optimal Lap Time: 1:23:842 
+------------------------------------
+Driver: PIA 
+ Stint no 4 - Compound: MEDIUM 
+ Total Stint Laps: 9 Laps 
+ Tyre age: 11-19 Laps  
+ Clean Laps: 6 
+ Stint- Start Tyre Life (Clean Laps): 12 Laps 
+ Tyre Life up to competitive laps: 18 Laps 
+ Average Lap Time: 1:29:741 
+ Fastest Lap: 1:29:256 
+ Fastest S1: 0:18:039 
+ Fastest S2: 0:38:376 
+ Fastest S3: 0:32:692 
+ Optimal Lap Time: 1:29:107 
+------------------------------------
+Driver: PIA 
+ Stint no 5 - Compound: SOFT 
+ Total Stint Laps: 4 Laps 
+ Tyre age: 7-10 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 8 Laps 
+ Tyre Life up to competitive laps: 8 Laps 
+ Average Lap Time: 1:28:359 
+ Fastest Lap: 1:28:359 
+ Fastest S1: 0:17:899 
+ Fastest S2: 0:38:240 
+ Fastest S3: 0:32:220 
+ Optimal Lap Time: 1:28:359 
+------------------------------------
+=======================================================
+------------------------------------
+VERSTAPPEN:
+
+PER TYRE:
+
+MEDIUM A( 1 & 3)
+
+SOFT A (2 & 4)
+
+
+PER STINT:
+------------------------------------
+Driver: VER 
+ Stint no 1 - Compound: MEDIUM 
+ Total Stint Laps: 8 Laps 
+ Tyre age: 1-8 Laps  
+ Clean Laps: 3 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 7 Laps 
+ Average Lap Time: 1:24:583 
+ Fastest Lap: 1:24:399 
+ Fastest S1: 0:17:238 
+ Fastest S2: 0:36:393 
+ Fastest S3: 0:30:686 
+ Optimal Lap Time: 1:24:317 
+------------------------------------
+Driver: VER 
+ Stint no 2 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 1-3 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: 1:23:446 
+ Fastest Lap: 1:23:446 
+ Fastest S1: 0:17:153 
+ Fastest S2: 0:36:093 
+ Fastest S3: 0:30:200 
+ Optimal Lap Time: 1:23:446 
+------------------------------------
+Driver: VER 
+ Stint no 3 - Compound: MEDIUM 
+ Total Stint Laps: 17 Laps 
+ Tyre age: 9-25 Laps  
+ Clean Laps: 15 
+ Stint- Start Tyre Life (Clean Laps): 10 Laps 
+ Tyre Life up to competitive laps: 24 Laps 
+ Average Lap Time: 1:29:677 
+ Fastest Lap: 1:29:232 
+ Fastest S1: 0:18:007 
+ Fastest S2: 0:38:258 
+ Fastest S3: 0:32:705 
+ Optimal Lap Time: 1:28:970 
+------------------------------------
+Driver: VER 
+ Stint no 4 - Compound: SOFT 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 4-6 Laps 
+ Clean Laps: 0 
+ Stint- Start Tyre Life: 2 Laps 
+ Tyre Life up to competitive laps: 2 Laps 
+ Average Lap Time: - 
+ Fastest Lap: - 
+ Fastest S1: - 
+ Fastest S2: - 
+ Fastest S3: - 
+ Optimal Lap Time: - 
+------------------------------------
