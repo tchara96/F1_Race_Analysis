@@ -1,0 +1,173 @@
+ 2025 Abu Dhabi Practice 1
+====================================
+STINTS ANALYSIS
+====================================
+------------------------------------
+
+NORRIS: 
+
+PER TYRE:
+MEDIUM A (STINT 1 & 2 & 5)
+TOTAL LAPS: 19
+
+SOFT A (STINT 3 & 4)
+TOTAL LAPS: 9
+
+Comments: Norris used 2 compounds during P1, in 5 stints.
+
+PER STINT:
+------------------------------------
+Driver: NOR 
+ Stint no 1 - Compound: MEDIUM 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 1-5 Laps  
+ Clean Laps: 2 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 4 Laps 
+ Average Lap Time: 1:26:826 
+ Fastest Lap: 1:25:764 
+ Fastest S1: 0:17:595 
+ Fastest S2: 0:36:971 
+ Fastest S3: 0:31:198 
+ Optimal Lap Time: 1:25:764 
+ Comments: 2 push laps with 1 cooldown lap between (fresh tyre) (low fuel run)
+------------------------------------ 
+Driver: NOR 
+ Stint no 2 - Compound: MEDIUM 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 6-10 Laps  
+ Clean Laps: 2 
+ Stint- Start Tyre Life (Clean Laps): 7 Laps 
+ Tyre Life up to competitive laps: 9 Laps 
+ Average Lap Time: 1:26:378 
+ Fastest Lap: 1:25:454 
+ Fastest S1: 0:17:465 
+ Fastest S2: 0:37:014 
+ Fastest S3: 0:30:975 
+ Optimal Lap Time: 1:25:454 
+Comments: Pitted and stay on same tyre, run 6 laps(2 clean, 2 slow, 2 no competitive)(low fuel run)
+
+------------------------------------
+Driver: NOR 
+ Stint no 3 - Compound: SOFT 
+ Total Stint Laps: 4 Laps 
+ Tyre age: 1-4 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 3 Laps 
+ Tyre Life up to competitive laps: 3 Laps 
+ Average Lap Time: 1:24:519 
+ Fastest Lap: 1:24:519 
+ Fastest S1: 0:17:393 
+ Fastest S2: 0:36:532 
+ Fastest S3: 0:30:594 
+ Optimal Lap Time: 1:24:519 
+ Comments: 1 push lap(fresh tyre) (Quali sim?)(low fuel run)
+
+------------------------------------
+
+Driver: NOR 
+ Stint no 4 - Compound: SOFT 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 5-9 Laps  
+ Clean Laps: 2 
+ Stint- Start Tyre Life (Clean Laps): 6 Laps 
+ Tyre Life up to competitive laps: 8 Laps 
+ Average Lap Time: 1:26:0710 
+ Fastest Lap: 1:24:485 
+ Fastest S1: 0:17:390 
+ Fastest S2: 0:36:526 
+ Fastest S3: 0:30:569 
+ Optimal Lap Time: 1:24:485 
+Comments: Soft Long run of 4 laps (avg 1:26:070)
+------------------------------------
+
+Driver: NOR 
+ Stint no 5 - Compound: MEDIUM 
+ Total Stint Laps: 9 Laps 
+ Tyre age: 11-19 Laps  
+ Clean Laps: 4 
+ Stint- Start Tyre Life (Clean Laps): 12 Laps 
+ Tyre Life up to competitive laps: 15 Laps 
+ Average Lap Time: 1:29:826 
+ Fastest Lap: 1:29:593 
+ Fastest S1: 0:18:161 
+ Fastest S2: 0:38:557 
+ Fastest S3: 0:32:753 
+ Optimal Lap Time: 1:29:471
+ Comments: Medium Long-High fuel run of 5 laps (avg 1:29:826), after Lap 16 was 1:30:552, 7 tenths slower (maybe thats the limit of tyre life?)
+
+
+====================================
+VERSTAPPEN
+PER TYRE:
+
+HARD A (STINT 1,2 & 4)
+Total Laps: 24
+
+SOFT A (STINT 3)
+Total Laps: 6
+
+
+
+PER STINT:
+------------------------------------
+Driver: VER 
+ Stint no 1 - Compound: HARD 
+ Total Stint Laps: 5 Laps 
+ Tyre age: 1-5 Laps  
+ Clean Laps: 2 
+ Stint- Start Tyre Life (Clean Laps): 2 Laps 
+ Tyre Life up to competitive laps: 4 Laps 
+ Average Lap Time: 1:26:557 
+ Fastest Lap: 1:25:984 
+ Fastest S1: 0:17:582 
+ Fastest S2: 0:36:926 
+ Fastest S3: 0:31:444 
+ Optimal Lap Time: 1:25:952 
+Comments: 2 push laps(1 cooldown between), probably low fuel
+------------------------------------
+Driver: VER 
+ Stint no 2 - Compound: HARD 
+ Total Stint Laps: 3 Laps 
+ Tyre age: 6-8 Laps  
+ Clean Laps: 1 
+ Stint- Start Tyre Life (Clean Laps): 7 Laps 
+ Tyre Life up to competitive laps: 7 Laps 
+ Average Lap Time: 1:25:468 
+ Fastest Lap: 1:25:468 
+ Fastest S1: 0:17:445 
+ Fastest S2: 0:36:745 
+ Fastest S3: 0:31:278 
+ Optimal Lap Time: 1:25:468  
+Comments: 1 fast lap
+------------------------------------
+Driver: VER 
+ Stint no 3 - Compound: SOFT 
+ Clean Laps: 2 
+ Tyre Life: 0-6 Laps
+ Stint- Start Tyre Life: 2 Laps 
+ Tyre Life up to competitive laps: 5 Laps 
+ Average Lap Time: 1:24:504 
+ Fastest Lap: 1:24:493 
+ Fastest S1: 0:17:290 
+ Fastest S2: 0:36:402 
+ Fastest S3: 0:30:697 
+ Optimal Lap Time: 1:24:389 
+Comments: 2 push laps(lap 2 and 5, 1:24:493, 1:24.514)
+------------------------------------
+Driver: VER 
+ Stint no 4 - Compound: HARD 
+ Total Stint Laps: 16 Laps 
+ Tyre age: 9-24 Laps  
+ Clean Laps: 12 
+ Stint- Start Tyre Life (Clean Laps): 10 Laps 
+ Tyre Life up to competitive laps: 22 Laps 
+ Average Lap Time: 1:29:693 
+ Fastest Lap: 1:29:138 
+ Fastest S1: 0:18:039 
+ Fastest S2: 0:38:261 
+ Fastest S3: 0:32:760 
+ Optimal Lap Time: 1:29:060 
+Comments: 12 lap Long run (lap 10-22) 
+------------------------------------
+
