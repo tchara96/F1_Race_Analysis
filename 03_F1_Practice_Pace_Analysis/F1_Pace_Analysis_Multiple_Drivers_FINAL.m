@@ -16,8 +16,18 @@ clear
 close all
 
 %% 1. CONFIGURATION AND DATA LOADING
-FILE_PATH ='abu-dhabi-grand-prix-practice-1';
+
+%% CHANGE regarding the practice you want to analyse
+FILE_PATH ='abu-dhabi-grand-prix-practice-1'; % CHANGE the name of the file, if you want to analyse other session, 1,2,3
 RACE_TITLE ='2025 Abu Dhabi Practice 1';
+
+% Change for Drivers based on order of DATA
+drivers_names = {'VER','NOR'}; 
+% For practice 1: {'VER','NOR'}; 
+% For practice 2: {'NOR','PIA','VER'}; 
+% For practice 3: {'PIA','VER','NOR'};
+%%
+
 fprintf('Loading Data...\n %s\n',RACE_TITLE);
 % Data Import from csv file
 try
@@ -33,8 +43,6 @@ data_columns = 13; % 13 columns for each driver
 laps = DATA(:,1); % 1st column: Laps
 number_drivers = (width(DATA)-1)/data_columns;
 
-% Change for Drivers based on order of DATA
-drivers_names = {'VER','NOR'};
 % Get data for each driver specifically
 driver_data_cell = cell(1, number_drivers); % Preallocate the cell array
 for i = 1:number_drivers
