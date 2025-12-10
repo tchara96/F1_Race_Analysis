@@ -1,4 +1,4 @@
-# 🏎️ F1 Practice Pace Analysis (Abu Dhabi Grand Prix)
+# 🏎️ F1 Practice Pace Analysis (2025 Abu Dhabi Grand Prix)
 
 This project contains the MATLAB script and associated data files for analyzing long-run and short-run pace from the three practice sessions of the title decider, 2025 Abu Dhabi Grand Prix. The goal of this analysis is to determine the relative performance and tire degradation characteristics of the 3 title contenters leading up to Qualifying and the Race.
 
