@@ -54,7 +54,7 @@ This table summarizes the fastest lap times (Qualifying Simulations) and the bes
 The `Results` folder contains the detailed output for each session:
 
 ### **Text Summaries**
-* `Results/Practice X/PRACTICE X results.txt` (or similar): Textual summary of key pace metrics (e.g., average lap time, standard deviation, degradation rate) for each driver on each tire compound (`SOFT`, `MEDIUM`, `HARD`).
+* `Results/Practice X/PRACTICE X results.txt` (or similar): Textual summary of key pace metrics (e.g., average lap time, fastest lap time, etc) for each driver on each tire compound (`SOFT`, `MEDIUM`, `HARD`).
 
 ### **Visualization Figures**
 
