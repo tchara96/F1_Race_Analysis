@@ -26,7 +26,7 @@ The raw data files (`abu-dhabi-grand-prix-practice-X.csv`) used for this analysi
 To run the analysis script and view the figures, you will need:
 
 * **MATLAB** (R2018a or newer recommended).
-* 
+
 ## ▶️ How to Run the Analysis
 
 1.  Place all files and folders in your MATLAB working directory.
@@ -34,7 +34,20 @@ To run the analysis script and view the figures, you will need:
 3.  Ensure the raw data files (`.csv`) are correctly referenced in the script.
 4.  Run the script by pressing the **Run** button or typing `F1_Pace_Analysis_Multiple_Drivers_FINAL` in the Command Window.
 
-The script will generate the results at the command window and the `.fig` plots, saving them into the corresponding `Results/Practice X/` subfolders.
+The script will generate the results at the command window and the `.fig` plots. 
+
+## 🏁 Final Pace Scenario Comparison (P1, P2, P3)
+
+This table summarizes the fastest lap times (Qualifying Simulations) and the best average pace (Race Simulations) achieved by the featured drivers across all three practice sessions. Gaps are measured relative to the fastest time in that specific scenario.
+
+| Pace Scenario | Compound | NOR | VER | PIA |
+| :--- | :--- | :--- | :--- | :--- |
+| **QUALI SIMS** (Fastest Lap) | **SOFT** | **1:23.083** | 1:23.446 (+0.363) | 1:23.593 (+0.510) |
+| (Low Fuel) | **MEDIUM** | **1:24.292** | 1:24.399 (+0.107) | 1:24.434 (+0.142) |
+| | **HARD** | - | **1:25.468** | - |
+| **RACE SIMS** (Average Lap Time) | **SOFT** | **1:26.071** | - | 1:26.492 (+0.421) |
+| (High Fuel) | **MEDIUM** | **1:29.270** | 1:29.677 (+0.407) | 1:29.741 (+0.471) |
+| | **HARD** | - | **1:29.693** | - |
 
 ## 📊 Analysis Outputs
 
@@ -47,11 +60,15 @@ The `Results` folder contains the detailed output for each session:
 
 The following `.fig` plots are generated and stored per practice session:
 
-| Filename Example | Description |
-| :--- | :--- |
-| `Drivers Pace_valid stints.fig` | Comparison of average pace across all valid long/short stints for the selected drivers. |
-| `[compound] stints.fig` | Visual analysis of lap times within long-runs, grouped by tire compound (e.g., `hard stints.fig`, `soft stints.fig`). |
-| `[driver] all laps.fig` | Plot showing all valid lap times recorded for a specific driver (e.g., `norris all laps.fig`), often highlighting the session progression or tire usage. |
+| Figure Name | Description | Axis Data (Y-axis: Lap Time) |
+| :--- | :--- | :--- |
+| **Figure 1** | All Drivers Pace: All **VALID** Stints (Clear Laps) | X-axis: Lap Tyre Age |
+| **Figure 2** | Drivers Pace: **SOFT** Tyre Stints (Valid Laps Only) | X-axis: Tyre Life |
+| **Figure 3** | Drivers Pace: **MEDIUM** Tyre Stints (Valid Laps Only) | X-axis: Tyre Life |
+| **Figure 4** | Drivers Pace: **HARD** Tyre Stints (Valid Laps Only) | X-axis: Tyre Life |
+| **Figure 5** | ALL Laps Pace, all laps of the session (**1st Driver**) | X-axis: Tyre Age |
+| **Figure 6** | ALL Laps Pace, all laps of the session (**2nd Driver**) | X-axis: Tyre Age |
+| **Figure 7** | ALL Laps Pace, all laps of the session (**3rd Driver**) | X-axis: Tyre Age |
 
 ## 📝 License
 
