@@ -26,8 +26,7 @@ The raw data files (`abu-dhabi-grand-prix-practice-X.csv`) used for this analysi
 To run the analysis script and view the figures, you will need:
 
 * **MATLAB** (R2018a or newer recommended).
-* The **Statistics and Machine Learning Toolbox** (if custom statistics functions are used).
-
+* 
 ## ▶️ How to Run the Analysis
 
 1.  Place all files and folders in your MATLAB working directory.
@@ -35,7 +34,7 @@ To run the analysis script and view the figures, you will need:
 3.  Ensure the raw data files (`.csv`) are correctly referenced in the script.
 4.  Run the script by pressing the **Run** button or typing `F1_Pace_Analysis_Multiple_Drivers_FINAL` in the Command Window.
 
-The script will generate the `.txt` summary files and the `.fig` plots, saving them into the corresponding `Results/Practice X/` subfolders.
+The script will generate the results at the command window and the `.fig` plots, saving them into the corresponding `Results/Practice X/` subfolders.
 
 ## 📊 Analysis Outputs
 
