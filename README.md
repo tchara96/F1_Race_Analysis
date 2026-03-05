@@ -43,9 +43,10 @@ The "Data Architect" layer that synthesizes 144 hours of testing into a single s
 * **`/Results`**: Automated exports including the `ULTIMATE_AGGREGATED_REPORT` and visual performance trends.
 
 ## 🚀 How to Run
-1.  Ensure all daily session data is stored in folders following the `F1_Testing_Day_X` convention.
-2.  Run `F1_Pace_Analysis_Preseason_2026.m` to generate daily reports.
-3.  Execute `post_analysis_v4.m` to generate the global summary and final visualizations in the `F1_Final_Post_Analysis` directory.
+1.  The user needs to modify in code section, %% 0 📂 DIRECTORY SETUP. Modify the four X to 1-6 regarding which testing wants the user to analyse.
+2.  Ensure all daily session data is stored in folders following the `F1_Testing_Day_X` convention.
+3.  Run `F1_Pace_Analysis_Preseason_2026.m` to generate daily reports.
+4.  When finish all 6 Testing days, execute `post_analysis_v4.m` to generate the global summary and final visualizations in the `F1_Final_Post_Analysis` directory.
 
 ---
 **Author:** Thanasis Charalambous  
