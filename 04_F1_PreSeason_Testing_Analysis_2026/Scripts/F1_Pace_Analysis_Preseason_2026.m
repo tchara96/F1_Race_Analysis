@@ -12,36 +12,62 @@
 clc
 clear
 close all
-%%  0. CREATE FILES FOR RESULTS 
-% 📂 DIRECTORY SETUP
-folder_name = 'F1_Testing_Day_6'; % Change the name of the file
 
-% Name of Excel Master Report
-filename = 'F1_2026_Master_Report_Testing_Day6.xlsx';% Change the name of the file
+
+%% 0 📂 DIRECTORY SETUP
+% User needs to make changes in X (X=1,2,3,4,5,6)
+folder_name = 'F1_Testing_Day_X';              % Change X to the day number (1-6)
+filename    = 'F1_2026_Master_Report_DayX.xlsx'; % Matches the folder name
+
+% 🛠️ DATA LOADING CONFIGURATION
+FILE_PATH   = 'pre-season-testing-1-practice-DATA-dayX';  % The name of your TracingInsights CSV
+RACE_TITLE  = '2026 Bahrain Pre-Season Day X'; % Title for the plots
+
+
+%% 1.DYNAMIC DRIVER EXTRACTION
+fid = fopen(FILE_PATH, 'r');
+drivers_names = {}; 
+
+if fid ~= -1
+    % Read line by line
+    while ~feof(fid)
+        line = fgetl(fid);
+        % Look for the driver line (case-insensitive)
+        if contains(line, '# Drivers:', 'IgnoreCase', true)
+            % 1. Remove '# Drivers:' prefix
+            % 2. Split by commas
+            % 3. Trim whitespace from each driver code
+            temp_names = strsplit(line, ':');
+            if length(temp_names) > 1
+                drivers_names = strtrim(strsplit(temp_names{2}, ','));
+            end
+            break; 
+        end
+    end
+    fclose(fid);
+end
+
+% Fallback in case A15 is missing or formatted differently
+if isempty(drivers_names) || isempty(drivers_names{1})
+    warning('Dynamic driver detection failed. Using manual fallback.');
+    drivers_names = {'VER', 'RUS', 'LEC', 'NOR'};  % CHANGE manually according to order of data
+end
+
+fprintf('Loading Data...\n %s\n', RACE_TITLE);
+fprintf('Drivers Detected: %s\n', strjoin(drivers_names, ', '));
+
+% Now load the table data starting from the header (after the # comments)
+% MATLAB readtable automatically ignores lines starting with #
+try
+    DATA = readtable(FILE_PATH, 'VariableNamingRule', 'preserve');
+catch ME
+    error('DATA LOAD ERROR: %s', ME.message);
+end
+
 
 % Create the main session folder if it doesn't exist
 if ~exist(folder_name, 'dir')
     mkdir(folder_name);
-end
-
-
-%% 1. CONFIGURATION AND DATA LOADING
-
-%% CHANGE regarding the practice you want to analyse
-FILE_PATH ='pre-season-testing-2-practice-DATA-day6'; % CHANGE the name of the file, if you want to analyse other session
-RACE_TITLE ='2026 Bahrain Pre Season testing Day 6';
-
-% Change for Drivers based on order of DATA
-drivers_names = {'RUS','LEC','PIA','ANT','VER','NOR','HAD'}; 
-
-%%
-
-fprintf('Loading Data...\n %s\n',RACE_TITLE);
-% Data Import from csv file
-try
-DATA = readtable(FILE_PATH, 'Delimiter',',');
-catch ME
-    error('DATA LOAD ERROR: Could not load the CSV file. Check path and permissions. MATLAB Error: %s', ME.message);
 end
 
 %% 2. DATA PRE-PROCESSING & FILTERING
